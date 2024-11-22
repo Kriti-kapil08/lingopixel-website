@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="nav">
+            <div class="new_logo">
+                <img src="wooden sign.jpeg" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav_ul">
+                    <li class="nav_items">
+                        <a href="index1.html" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="courses1.html" class="nav_link">Courses</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="about1.html" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="contact1.html" class="nav_link">Contact </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="quiz.html" class="nav_link">Quiz</a>
+                    </li>
+                    <button class="nav_button">Sign Up</button>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span>&#9776;</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact_section">
+        <div class="contact_heading">Contact With Us</div>
+        <div class="contact">
+            <div class="contact_form">
+                <div class="contact_form_heading">
+                    Request a Quote
+                </div>
+                <div class="contact_subheading">
+                    We will be happy to answer your question
+                </div>
+                <form class="contact-form1" onsubmit="return validateContactForm()">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Phone Number" required>
+                    <textarea placeholder="message"></textarea>
+                    <button  onclick="test()">Submit</button>
+                </form>
+                <p id="feedback"></p>
+                
+            </div>
+            <div class="contact_address">
+                <div>
+                    <div class="contact_icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h1>Our Address</h1>
+                        <p>Ram Nagar</p>
+                        <p>Delhi, India</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact_icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h1>Our Phone Number</h1>
+                        <p>+91-5743646655</p>
+                        <p>+91-1243567589</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact_icon">
+                        <i class="fa-regular fa-envelop"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h1>Our Email</h1>
+                        <p>example.com</p>
+                        <p>example@yahoo.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer_section">
+        <div class="footer">
+            <div class="footer_item">
+                <h3>Contact Us</h3>
+                <div class="footer_content">
+                    <div class="footer_icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <p>420 Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="footer_content">
+                    <div class="footer_icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <p>info.example@gmail.com</p>
+                </div>
+                <div class="footer_content">
+                    <div class="footer_icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <p>+91-5743646655</p>
+                </div>
+                
+            </div>
+            <div class="footer_item">
+                <h3>Courses</h3>
+                <div class="footer_list">
+                    <p>German</p>
+                    <p>French</p>
+                    <p>Japanese</p>
+                    <p>Korean</p>
+                    <p>Many more...</p>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h3>Instructor</h3>
+                <div class="footer_list">
+                    <p>Friendrich Felix</p>
+                    <p>Franz</p>
+                    <p>Hitana Kimochi</p>
+                    <p>Aae-Cha</p>
+                    <p>Many more...</p>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h3>Quick Link</h3>
+                <div class="footer_list">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Course</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy;copyright 2024 by LingoPixel</div>
+    </div>
+<script src="project.js"></script>
+</body>
+</html>

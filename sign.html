@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="nav">
+            <div class="new_logo">
+                <img src="wooden sign.jpeg" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav_ul">
+                    <li class="nav_items">
+                        <a href="index1.html" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="courses1.html" class="nav_link">Courses</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="about1.html" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="contact1.html" class="nav_link">Contact </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="quiz1.html" class="nav_link">Quiz</a>
+                    </li>
+                    <button class="nav_button">
+                        <a href="sign.html" class="nav_link">Sign Up</a>
+                    </button>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span>&#9776;</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <form id="signupForm" class="signup-form" onsubmit="return Test()">
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+      
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+      
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+      
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+  </div>
+  <div class="footer_section">
+    <div class="footer">
+        <div class="footer_item">
+            <h3>Contact Us</h3>
+            <div class="footer_content">
+                <div class="footer_icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <p>420 Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer_content">
+                <div class="footer_icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <p>info.example@gmail.com</p>
+            </div>
+            <div class="footer_content">
+                <div class="footer_icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <p>+91-5743646655</p>
+            </div>
+            
+        </div>
+        <div class="footer_item">
+            <h3>Courses</h3>
+            <div class="footer_list">
+                <p>German</p>
+                <p>French</p>
+                <p>Japanese</p>
+                <p>Korean</p>
+                <p>Many more...</p>
+            </div>
+        </div>
+        <div class="footer_item">
+            <h3>Instructor</h3>
+            <div class="footer_list">
+                <p>Friendrich Felix</p>
+                <p>Franz</p>
+                <p>Hitana Kimochi</p>
+                <p>Aae-Cha</p>
+                <p>Many more...</p>
+            </div>
+        </div>
+        <div class="footer_item">
+            <h3>Quick Link</h3>
+            <div class="footer_list">
+                <p>Home</p>
+                <p>About</p>
+                <p>Course</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy;copyright 2024 by LingoPixel</div>
+</div>
+
+  
+<script src="project.js"></script>
+</body>
+</html>
